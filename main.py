@@ -3,7 +3,6 @@ import uuid
 
 hash = hashlib.md5()
 
-
 s = input()
 hash.update(s.encode('utf-8'))
 password = hash.hexdigest()
