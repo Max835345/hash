@@ -7,7 +7,6 @@ s = input()
 hash.update(s.encode('utf-8'))
 password = hash.hexdigest()
 
-
 h = hashlib.md5()
 password_true = "password"
 h.update(password_true.encode('utf-8'))
